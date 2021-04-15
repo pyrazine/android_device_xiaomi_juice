@@ -142,6 +142,9 @@ BUILD_WITHOUT_VENDOR := true
 # Platform
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno610
 
+# Power
+TARGET_USES_INTERACTION_BOOST := true
+
 # Recovery
 BOARD_INCLUDE_RECOVERY_DTBO := true
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.default
