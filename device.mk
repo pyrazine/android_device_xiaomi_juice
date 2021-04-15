@@ -95,10 +95,6 @@ PRODUCT_PACKAGES += \
 # Properties
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
-# Remove unwanted packages
-PRODUCT_PACKAGES += \
-    RemovePackages
-
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 29
 
