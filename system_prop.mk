@@ -7,3 +7,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.force_ltd_sys_ind=1 \
     persist.vendor.radio.voice_on_lte=1 \
     persist.vendor.radio.calls.on.ims=1
+
+# Zygote
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.device_config.runtime_native.usap_pool_enabled=true
