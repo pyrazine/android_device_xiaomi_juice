@@ -8,7 +8,13 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Bluetooth
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.bluetooth.library_name=libbluetooth.so 
+    ro.bluetooth.library_name=libbluetooth.so
+
+# Blurs
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.surface_flinger.supports_background_blur=1 \
+    persist.sys.sf.disable_blurs=1 \
+    ro.sf.blurs_are_expensive=1
 
 # Graphics
 PRODUCT_PRODUCT_PROPERTIES += \
