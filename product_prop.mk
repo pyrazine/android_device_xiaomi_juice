@@ -14,6 +14,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.surface_flinger.supports_background_blur=0 \
     ro.sf.blurs_are_expensive=0
+    
+# DRM
+PRODUCT_PROPERTY_OVERRIDES += \
+    drm.service.enabled=true
 
 # Graphics
 PRODUCT_PRODUCT_PROPERTIES += \
