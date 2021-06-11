@@ -104,7 +104,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/power-libperfmgr/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
 # Properties
-PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
+-include $(LOCAL_PATH)/system_prop.mk
+-include $(LOCAL_PATH)/product_prop.mk
 
 # Sensors
 PRODUCT_PACKAGES += \
@@ -152,6 +153,3 @@ PRODUCT_PACKAGES += \
     TelecommResCommon \
     TelephonyResCommon \
     WifiResCommon
-
--include $(LOCAL_PATH)/product_prop.mk
--include $(LOCAL_PATH)/system_prop.mk
