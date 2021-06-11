@@ -165,6 +165,7 @@ TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 
 # Sepolicy
 include device/qcom/sepolicy/SEPolicy.mk
