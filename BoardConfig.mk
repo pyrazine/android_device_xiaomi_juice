@@ -163,6 +163,9 @@ TARGET_USERIMAGES_USE_F2FS := true
 # RIL
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 
+# Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
 # Sepolicy
 include device/qcom/sepolicy/SEPolicy.mk
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
