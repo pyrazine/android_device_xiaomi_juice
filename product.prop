@@ -43,6 +43,7 @@ debug.sf.latch_unsignaled=0
 
 # Media
 ro.config.vc_call_vol_steps=11
+ro.config.media_vol_steps=25
 
 # Power-saving props
 ro.vendor.use_data_netmgrd=true
