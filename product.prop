@@ -38,6 +38,9 @@ ro.surface_flinger.use_context_priority=true
 ro.config.avoid_gfx_accel=true
 debug.sf.latch_unsignaled=0
 
+# Media
+ro.config.vc_call_vol_steps=11
+
 # Power-saving props
 ro.vendor.use_data_netmgrd=true
 ro.vold.umsdirtyratio=20
