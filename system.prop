@@ -31,9 +31,6 @@ ro.netflix.bsp_rev=Q660-13149-1
 # Scroll optimization
 ro.vendor.perf.scroll_opt=true
 
-# SurfaceFlinger brightness tweak
-ro.sf.force_light_brightness=1
-
 # ZRAM
 ro.zram.mark_idle_delay_mins=60
 ro.zram.first_wb_delay_mins=180
