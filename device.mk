@@ -20,7 +20,8 @@ $(call inherit-product-if-exists, vendor/xiaomi/juice/juice-vendor.mk)
 
 # Soong Namespace
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    kernel/xiaomi/juice
 
 PRODUCT_BUILD_SUPER_PARTITION := false
 BOARD_BUILD_PRODUCT_IMAGE := true
